@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+header {
+    background-image: url("/banner.jpg");
+    height: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,9 +1,40 @@
 @import "tailwindcss";
 
-/* header {
-    background-image: url("/banner.jpg");
-    height: 375px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+@media (min-width: 768px) {
+  header nav, header section {
+    max-width: 670px;
+    margin: auto;
+  }
+  header img {
+    width: 400px;
+  }
+  .power {
+    font-size: 70px;
+    padding-top: 40px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  .ps-b {
+    font-size: 23px;
+    max-width: 250px;
+    margin-top: -20px;
+  }
+  header button {
+    font-size: 21px;
+  }
+  main {
+    max-width: 670px;
+  }
+  .lists {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+  .ultra {
+    width: fit-content;
+  }
+  .phone, .ultra {
+    padding: 20px 30px;
+  }
+}
